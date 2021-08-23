@@ -1,0 +1,24 @@
+int glb_a[10];
+int glb_b;
+int glb_c;
+int main(int arg0,int arg1, int arg2, int arg3, int amem0, int amem1)
+{
+  int loc_a[10000];
+  int a = glb_b, b = glb_b, c = glb_b, d = glb_b, e = glb_b, f = glb_b, g = glb_b, h = glb_b, i = glb_b;
+  const int pp=  5;
+  int r = 0;
+
+
+  int j  = main( arg0, arg1,  arg2,  arg3,  amem0,  amem1);
+  glb_b  = main( arg0, arg1,  arg2,  arg3,  amem0,  amem1);
+  int m  = main( arg0, arg1,  arg2,  arg3,  amem0,  amem1);
+   glb_c  = main( arg0, arg1,  arg2,  arg3,  amem0,  amem1);
+   glb_a[5]  = main( arg0, arg1,  arg2,  arg3,  amem0,  amem1);
+  int k = a+b+c+d+e+f+g+h+i+r+j;
+  if(b > b || c > 5)
+    {
+      r = 5;
+
+    }
+  return glb_b+glb_c;
+}

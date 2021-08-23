@@ -1,0 +1,3 @@
+void f(int a[][5],int b[],int c[][3][2])
+{
+}
